@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font-awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- page 1 -->
+    <div
+      class="w-full bg-gradient-to-b from-[rgb(255,255,255)] to-[rgb(239,235,227)]"
+    >
+      <!-- Nav  -->
+      <div class="w-full h-[109px] flex justify-between items-center px-5">
+        <!-- Logo -->
+        <div class="hidden sm:block pt-[24px] pl-[80px]">
+          <img
+            src="assets/logo-green.png"
+            alt=""
+            class="w-[154.04px] h-[60.56px]"
+          />
+        </div>
+        <div class="sm:hidden">
+          <img src="assets/logo-white.png" alt="" />
+        </div>
+
+        <!-- Navigation for larger screens -->
+        <div class="hidden sm:flex items-center gap-10 pr-20">
+          <a href="" class="text-gray-700 hover:text-green-600">Product</a>
+          <a href="" class="text-gray-700 hover:text-green-600">Services</a>
+          <a href="" class="text-gray-700 hover:text-green-600">Contact us</a>
+
+          <!-- Icons -->
+          <div class="flex items-center gap-5">
+            <i class="fa-solid fa-magnifying-glass text-xl"></i>
+            <i class="fa-solid fa-cart-shopping text-xl"></i>
+          </div>
+
+          <!-- Buttons -->
+          <div class="flex items-center gap-5">
+            <button
+              class="border-[rgb(23,152,0)] border-2 px-[30px] py-[10px] rounded-lg"
+            >
+              Login
+            </button>
+            <button
+              class="bg-[rgb(23,152,0)] text-white px-[30px] py-[10px] rounded-lg"
+            >
+              Register
+            </button>
+          </div>
+        </div>
+
+        <!-- Hamburger icon for mobile -->
+        <div class="sm:hidden flex items-center justify-end">
+          <i class="fa-solid fa-bars text-xl"></i>
+        </div>
+      </div>
+      <div class="herosection">
+        <!-- for text1 -->
+        <div>
+          <p
+            class="mx-10 text-[32px] font-semibold text-black text-center mt-[100px] sm:text-[56px]"
+          >
+            Freshness<span class="text-green-600"
+              >You Can <br />
+              Count</span
+            >
+            On, Prices You’ll Love!
+          </p>
+        </div>
+        <!-- text2 -->
+        <div
+          class="mx-10 text-[16px] text-black mt-3 text-center sm:text-[20px]"
+        >
+          <p>
+            Shop your daily essentials at unbeatable prices. From fresh produce
+            to pantry <br class="hidden sm:block" />
+            staples, we’ve got you covered every day!
+          </p>
+        </div>
+        <div class="flex justify-center">
+          <img class="" src="assets/hero-img.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- page 2 -->
+    <div class="w-full bg-white p-24">
+      <!-- service -->
+      <div class="service">
+        <p
+          class="text-green-600 text-[36px] font-bold mb-10 flex flex-col justify-start"
+        >
+          Services
+        </p>
+        <div
+          class="flex flex-col justify-center items-center sm:flex-row gap-10"
+        >
+          <div
+            class="card1 bg-[rgb(239,235,227)] w-[330px] sm:w-[424px] h-[330.61px] sm:h[375px] rounded-xl flex flex-col items-center text-center"
+          >
+            <img src="assets/support.png" alt="" class="pt-7" />
+
+            <h2 class="text-3xl font-bold mt-2">24/7 Services</h2>
+            <p class="m-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+          </div>
+
+          <div
+            class="card2 bg-[rgb(239,235,227)] w-[330px] sm:w-[424px] h-[330.61px] sm:h[375px] rounded-xl flex flex-col items-center text-center"
+          >
+            <img src="assets/fast-delivery.png" alt="" class="pt-7" />
+
+            <h2 class="text-3xl font-bold mt-2">Fast Delivery</h2>
+            <p class="m-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+          </div>
+          <div
+            class="card3 bg-[rgb(239,235,227)] w-[330px] sm:w-[424px] h-[330.61px] sm:h[375px] rounded-xl flex flex-col items-center text-center"
+          >
+            <img src="assets/healthy-100.png" alt="" class="pt-7" />
+
+            <h2 class="text-3xl font-bold mt-2">Healthy Products</h2>
+            <p class="m-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- page 3 -->
+    <div class="bg-[rgb(239,235,227)] w-full flex items-center justify-center">
+      <div class="p-24">
+        <h3 class="text-2xl font-bold text-green-600">Popular Products</h3>
+        <div class="alldivs mt-10">
+          <div
+            class="product1 bg-white w-[270px] h-[74px] p-10 flex flex-row items-center"
+          >
+            <div
+              class="innerdiv left bg-[rgb(239,235,227)] absolute w-[55px] h-[53px]"
+            >
+              <img src="assets/product-onion.png" alt="" />
+             
+            </div>
+             <div class="text flex">
+                <div class="">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
